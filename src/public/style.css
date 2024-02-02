@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Arial', sans-serif;
+  line-height: 2;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(79, 115, 247);
+  color: #fff;
+  padding: 0px 20px;
+  border-bottom: 3px solid #0779e4;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-title {
+  font-size: 30px;
+  color: white;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  margin: 0px 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  max-width: 800px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background: rgb(79, 115, 247);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+section#contact-form {
+  background: #f8f8f8;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+section#contact-form div {
+  margin-bottom: 10px;
+}
+
+section#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+section#contact-form input[type="text"],
+section#contact-form input[type="email"],
+section#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section#contact-form button {
+  background-color: rgb(79, 115, 247);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section#contact-form button:hover {
+  background-color: rgb(58, 85, 159);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0px;
+  }
+}

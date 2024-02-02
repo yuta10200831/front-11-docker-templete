@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SES企業のホームページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header-container">
+            <img src="images/28872133_s.jpg" alt="ロゴ" class="header-logo">
+            <div class="header-title">株式会社****</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">会社概要</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="Recruit">採用情報</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- メインコンテンツ -->
+        <section id="about">
+            <h1>会社概要</h1>
+            <p>SES企業は、システム開発と人材育成を専門とする企業です。</p>
+            <p>根気・やる気に満ち溢れている人を探しています</p>
+            <p>自ら学び続けたい方はぜひ当社を見てみてください</p>
+            <img src="images/28872133_s.jpg" alt="会社概要に関する画像の説明">
+        </section>
+
+        <section id="services">
+            <h2>サービス</h2>
+            <p>高品質なシステム開発と、一流のエンジニア育成プログラムを提供しています。</p>
+            <p>優秀なエンジニアを多数排出しており、育成するためのノウハウがあります。</p>
+            <img src="images/28872133_s.jpg" alt="会社概要に関する画像の説明">
+        </section>
+
+        <!-- お問い合わせフォーム -->
+        <section id="contact-form">
+            <h2>お問い合わせフォーム</h2>
+            <form action="送信先URL" method="POST">
+                <div>
+                    <label for="name">名前：</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">メールアドレス：</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">お問い合わせ内容：</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">送信</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> ©株式会社**** 2024〜now</p>
+    </footer>
+</body>
+</html>
