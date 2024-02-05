@@ -115,7 +115,7 @@ section#contact-form button:hover {
   background-color: rgb(58, 85, 159);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   header {
     flex-direction: column;
   }
